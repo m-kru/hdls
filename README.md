@@ -26,6 +26,9 @@ This further implies, that communication via standard input/output is bad choice
 
 1. What if 2 projects need different versions of the same library?
 Should hdls handle this, or should it be left to be handled by the user?
+*I'm* slightly biased to left it to be handled by the user.
+For example, in the project `hdls.toml` user could provide alternative path for some library.
+It would be users liability to put it somewhere in the filesystem and manage its version.
 2. Should there be only single hdls running, and handling all the clients, or should each client spawn its own hdls?
 By default, the LSP assumes that the server is started and closed by the client.
 Hence, the lifetime of a language server is fully determined by its user.
