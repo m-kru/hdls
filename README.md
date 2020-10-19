@@ -67,6 +67,7 @@ Should libraries files be loaded only on start, or periodically during the work?
 Maybe `SIGUSR*` should enforce libraries reload?
 Neiter on start, nor periodically.
 Files will be watched for notifications [fsnotify](https://github.com/fsnotify/fsnotify) or [watcher](https://github.com/radovskyb/watcher).
+4. How long does it take to calculate average HDL file hash?
 
 ### Overview
 
