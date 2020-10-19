@@ -69,6 +69,23 @@ Neiter on start, nor periodically.
 Files will be watched for notifications [fsnotify](https://github.com/fsnotify/fsnotify) or [watcher](https://github.com/radovskyb/watcher).
 4. How long does it take to calculate average HDL file hash?
 
+**Results:**
+
+Average results for Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, 121 files icnluded from [UVVM](https://github.com/UVVM/UVVM) and [OSVVM](https://github.com/OSVVM/OSVVM). GOMAXPROCS = 12.
+
+| Algorithm        | Average time per file [us]|
+| ---------------- | -------------------------:|
+| CRC-32 IEEE Poly | 2.98                      |
+| CRC-64 ISO Poly  | 5.05                      |
+| CRC-64 ECMA Poly | 5.72                      |
+| SHA1             | 3.78                      |
+| SHA256           | 7.22                      |
+| MD5              | 4.69                      |
+
+All the results are on a negligible level.
+What is interesting, when GOMAXPROCS = 1, the results are better.
+Probably related with kernel handling multiple files open/close simultaneously.
+
 ### Overview
 
 Directions of arrows show the information flow.
