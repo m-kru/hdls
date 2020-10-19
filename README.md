@@ -17,6 +17,10 @@ Cyclic libraries dependencies must generate fatal error to enforce user to fix l
 6. Libraries dependency graph generation - graph generation is needed for parallel libraries analysis anyway.
 7. Caching of libraries analysis results and automatic changes detection.
 8. There must be only single global configuration file, and single configuration file per workspace.
+9. hdls must support working on multiple projects simultaneously.
+As libraries are shared between projects, spawning single hdls process per single project (editors session) is not optimal.
+Each editors session must have its own dedicated context within hdls.
+This further implies, that communication via standard input/output is bad choice.
 
 ### Implementation decisions
 
