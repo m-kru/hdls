@@ -1000,7 +1000,7 @@ Verilog#</dia:string>
         <dia:point val="29.5297,12.8244"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.459,12.7537;31.8299,15.0783"/>
+        <dia:rectangle val="29.459,12.7537;31.8299,15.0782"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="29.5297,12.8244"/>
@@ -1028,7 +1028,7 @@ Verilog#</dia:string>
         <dia:point val="33.0297,12.8244"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.6808,12.7559;33.0982,15.0964"/>
+        <dia:rectangle val="31.6808,12.756;33.0981,15.0964"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="33.0297,12.8244"/>
@@ -1056,7 +1056,7 @@ Verilog#</dia:string>
         <dia:point val="36.5297,12.8244"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.6482,12.7582;36.596,15.0826"/>
+        <dia:rectangle val="31.6482,12.7582;36.5959,15.0826"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="36.5297,12.8244"/>
@@ -1181,17 +1181,15 @@ Verilog#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O30">
       <dia:attribute name="obj_pos">
-        <dia:point val="24,14.75"/>
+        <dia:point val="25.25,15.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="24,14.3833;26.7625,15.831"/>
+        <dia:rectangle val="23.2538,15.3833;27.2462,15.8432"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#stdio/
-sockets/
-named pipes?#</dia:string>
+            <dia:string>#Unix Domain Socket#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1200,13 +1198,13 @@ named pipes?#</dia:string>
             <dia:real val="0.49388886988162994"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="24,14.75"/>
+            <dia:point val="25.25,15.75"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
           </dia:attribute>
           <dia:attribute name="alignment">
-            <dia:enum val="0"/>
+            <dia:enum val="1"/>
           </dia:attribute>
         </dia:composite>
       </dia:attribute>
@@ -1356,7 +1354,7 @@ Server#</dia:string>
         <dia:point val="21.75,16"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.6875,15.6218;22.824,16.6101"/>
+        <dia:rectangle val="20.6875,15.6333;22.8125,16.5871"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1482,12 +1480,12 @@ Session 0#</dia:string>
         <dia:point val="24.5,10.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="24.5,10.3833;27.0375,10.8432"/>
+        <dia:rectangle val="24.5,10.3718;27.049,10.8662"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Workspace 2#</dia:string>
+            <dia:string>#Workspace 1#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1641,12 +1639,12 @@ Session 0#</dia:string>
         <dia:point val="20.75,10.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.75,10.3833;23.2875,10.8432"/>
+        <dia:rectangle val="20.75,10.3718;23.299,10.8662"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Workspace 1#</dia:string>
+            <dia:string>#Workspace 0#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1852,7 +1850,7 @@ SystemVerilog?#</dia:string>
         <dia:point val="21.75,15.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="21.1715,13.0081;21.9081,15.3086"/>
+        <dia:rectangle val="21.1714,13.0081;21.9081,15.3086"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="21.75,15.25"/>
@@ -1889,7 +1887,7 @@ SystemVerilog?#</dia:string>
         <dia:point val="21.75,15.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="21.6808,12.9974;25.1488,15.3192"/>
+        <dia:rectangle val="21.6808,12.9975;25.1487,15.3192"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="21.75,15.25"/>
@@ -1926,7 +1924,7 @@ SystemVerilog?#</dia:string>
         <dia:point val="25.0795,13.0667"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="25.0176,13.0047;31.8574,15.1368"/>
+        <dia:rectangle val="25.0176,13.0048;31.8574,15.1368"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="25.0795,13.0667"/>
@@ -1954,7 +1952,7 @@ SystemVerilog?#</dia:string>
         <dia:point val="31.75,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="21.2713,13.0084;31.8083,15.1619"/>
+        <dia:rectangle val="21.2712,13.0084;31.8083,15.1619"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="31.75,15"/>
@@ -2074,7 +2072,7 @@ Session 1#</dia:string>
         <dia:point val="35.7633,16.1268"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.7132,15.8635;38.55,16.3883"/>
+        <dia:rectangle val="35.7133,15.8635;38.55,16.3883"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="35.7633,16.1268"/>
@@ -2110,12 +2108,12 @@ Session 1#</dia:string>
         <dia:point val="40,10.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="40,10.3833;42.5375,10.8432"/>
+        <dia:rectangle val="40,10.3718;42.549,10.8662"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Workspace 1#</dia:string>
+            <dia:string>#Workspace 0#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -2269,7 +2267,7 @@ Session 1#</dia:string>
         <dia:point val="39.75,15.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="39.6854,13.0022;40.6442,15.3145"/>
+        <dia:rectangle val="39.6854,13.0022;40.6441,15.3145"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="39.75,15.25"/>
@@ -2306,7 +2304,7 @@ Session 1#</dia:string>
         <dia:point val="40.5795,13.0667"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.6408,13.0071;40.6391,15.1677"/>
+        <dia:rectangle val="31.6408,13.0072;40.639,15.1677"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="40.5795,13.0667"/>
@@ -2358,7 +2356,7 @@ Session 1#</dia:string>
           <dia:point val="29.5403,18.0321"/>
         </dia:attribute>
         <dia:attribute name="obj_bb">
-          <dia:rectangle val="29.5403,17.6653;31.4653,18.1252"/>
+          <dia:rectangle val="29.5403,17.6654;31.4653,18.1253"/>
         </dia:attribute>
         <dia:attribute name="text">
           <dia:composite type="text">
