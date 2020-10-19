@@ -65,6 +65,8 @@ Independent prototypes answering following questions are needed:
 3. What is the *best/fastest* way to detect changes of files within libraries (not workspaces).
 Should libraries files be loaded only on start, or periodically during the work?
 Maybe `SIGUSR*` should enforce libraries reload?
+Neiter on start, nor periodically.
+Files will be watched for notifications [fsnotify](https://github.com/fsnotify/fsnotify) or [watcher](https://github.com/radovskyb/watcher).
 
 ### Overview
 
